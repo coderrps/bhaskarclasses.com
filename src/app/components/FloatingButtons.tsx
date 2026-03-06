@@ -9,7 +9,7 @@ export function FloatingButtons() {
   };
 
   const handleCallClick = () => {
-    window.location.href = "tel:+919876543210";
+    window.location.href = "tel:+919821186101";
   };
 
   return (

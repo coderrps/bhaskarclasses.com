@@ -3,7 +3,7 @@ import { MessageCircle, Phone } from "lucide-react";
 export function FloatingButtons() {
   const handleWhatsAppClick = () => {
     // WhatsApp number format: country code + number without + or spaces
-    const phoneNumber = "919876543210"; // +91 98765 43210
+    const phoneNumber = "919821186101"; // +91 98765 43210
     const message = encodeURIComponent("Hi! I'm interested in learning more about Bhaskar Classes.");
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, "_blank");
   };
